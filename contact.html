@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Waarith Islamic School</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f9fc; /* Light background */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navbar */
+        nav {
+            background-color: #003366; /* Dark Blue */
+        }
+        nav .navbar-brand {
+            color: #fdd835; /* Yellow */
+            font-weight: bold;
+        }
+        nav .nav-link {
+            color: #ffffff;
+        }
+        nav .nav-link:hover {
+            color: #fdd835; /* Yellow on hover */
+        }
+
+        /* Section Headings */
+        h2 {
+            color: #003366; /* Dark Blue */
+            font-weight: bold;
+        }
+        .container{
+            color: #333;
+        }
+        .lead{
+            color: #fdd835;
+        }
+        .param{
+            color: #ffffff;
+        }
+
+        /* About Us Section */
+        #about img {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Services Section */
+        #services .card {
+            border: none;
+            background-color: #ffffff;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        #services .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+        #services .card-title {
+            color: #003366;
+            font-weight: bold;
+        }
+        #services .fa {
+            color: #fdd835; /* Yellow for icons */
+        }
+
+        /* Gallery */
+        #gallery img {
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        #gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Contact Us */
+        #contact form {
+            background-color: #ffffff;
+            animation: zoomOut 0.3s ease-in-out;
+
+        }
+        footer {
+            background-color: #003366;
+            
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand text-warning" href="#">
+                <img src="logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+                Al-Waarith Islamic School
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <!-- Contact Us Section -->
+        <section id="contact" class="py-5">
+            <div class="container">
+                <h2 class="text-center">Contact Us</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Full Name:</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your Name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Your Email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message:</label>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+    
+    
+    </div>
+                    <div class="col-md-6">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31693.315941345663!2d3.2065!3d6.6745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8c8c09100f3d%3A0x14dd23248e50280!2sAlagbado%2C%20Lagos!5e0!3m2!1sen!2sng!4v1700070117897!5m2!1sen!2sng"
+                             width=100% height="300""lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                        <h5>Address:</h5>
+                        <p>22 Oluwaniyi Street, Amikanle Road, Anjorin, Alagbado, Lagos</p>
+                        <h5>Telephone:</h5>
+                        <p>08072889844, 08180228434, 080377945608</p>
+                    </div>
+                </div>
+                </div>
+        </section>
+    
+        <footer class="text-center text-light py-4" style="background-color: #003366;">
+            <div class="container">
+                <p class="param">© 2024 Al-Waarith Islamic School. All Rights Reserved.</p>
+                <p>
+                    <a href="#" class="text-light mx-2"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-light mx-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-light mx-2"><i class="fab fa-instagram"></i></a>
+                </p>
+            </div>
+        </footer>
+    
+</body>
+</html>

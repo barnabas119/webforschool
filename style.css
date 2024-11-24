@@ -1,0 +1,19 @@
+/* General Styles */
+/* Body Background */
+body {
+    background-color: #F0F8FF;
+    overflow: hidden;
+}
+
+/* Services Zoom Animation */
+.service-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Buttons in About Us */
+button {
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
